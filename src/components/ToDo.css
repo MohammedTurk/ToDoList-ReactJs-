@@ -1,0 +1,35 @@
+.ToDo{
+    background-color: #555;
+    padding: 15px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.ToDoNum{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 25px;
+    margin-right: 5px;
+    border: 1px solid rgb(121, 121, 121);
+}
+.ToDoTitle{
+    font-size: 20px;
+}
+.Tools-box svg {
+margin: 0 5px;
+cursor: pointer;
+transition: .3s;
+}
+.Tools-box svg:hover {
+    color: rgb(226, 79, 239);
+ }
+ .done{
+    text-decoration: line-through;
+    color: rgb(121, 121, 121);
+    text-align: center;
+ }
